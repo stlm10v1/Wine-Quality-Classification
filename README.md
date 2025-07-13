@@ -10,7 +10,6 @@ This project explores and models wine quality prediction using red and white win
 - Perform classification to predict **wine type or quality** based on chemical properties.
 - Apply various machine learning models and compare their performance.
 - Handle class imbalance using **SMOTE**.
-- Apply clustering to explore data patterns using **KMeans**.
 
 ---
 
@@ -40,7 +39,7 @@ This project explores and models wine quality prediction using red and white win
 ## 📂 Files Included
 
 - `project_Final.ipynb` – Full analysis, modeling, and evaluation code
-- `winequality-red.csv` – Red wine dataset (from UCI repository)
+- `winequality-red.csv` – Red wine dataset
 - `winequality-white.csv` – White wine dataset
 - `README.md` – Project documentation
 
@@ -53,12 +52,6 @@ This project explores and models wine quality prediction using red and white win
 - KMeans clustering showed interesting groupings but requires domain-specific tuning for interpretability.
 
 ---
-
-## 📈 Future Scope
-
-- Deploy the model using Streamlit or Flask for prediction on new samples.
-- Add PCA for dimensionality reduction and visualization.
-- Use advanced ensemble techniques like XGBoost or Voting Classifiers.
 
 ---
 
